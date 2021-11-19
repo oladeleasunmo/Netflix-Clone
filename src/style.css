@@ -1,0 +1,112 @@
+/*CATEGORY */
+
+.Row {
+  margin-left: 20px;
+  margin-top: 10px;
+  color: white;
+}
+.poster img {
+  display: block;
+  object-fit: contain;
+  max-height: 100px;
+  transition: transform 0.4s;
+  margin-right: 9px;
+}
+.largerposter img {
+  display: block;
+  object-fit: contain;
+  max-height: 250px;
+}
+.poster img:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+.posterLarger img:hover {
+  transform: scale(1.09);
+  opacity: 1;
+}
+.posters {
+  display: flex;
+  padding: 20px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+.posters::-webkit-scrollbar {
+  display: none;
+}
+
+/*JUMBOTRON*/
+
+.jumbotron {
+  color: white;
+  object-fit: contain;
+  min-height: 448px;
+  overflow: hidden;
+}
+.jumbotron .contents {
+  margin-left: 30px;
+  padding-top: 140px;
+  z-index: 10;
+  height: 190px;
+}
+.jumbotron .title {
+  font-size: 3rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+  z-index: 10;
+}
+.jumbotron .des {
+  max-width: 45rem;
+  line-height: 1.3rem;
+  padding-top: 1rem;
+  font-size: 0.8rem;
+  max-width: 360px;
+  height: 80px;
+}
+.jumbotron button {
+  cursor: pointer;
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding: 0.5rem 2rem;
+  margin-right: 1rem;
+  background-color: rgba(51, 51, 51, 0.5);
+  transition: all 0.2s;
+}
+.jumbotron button:hover {
+  color: #000;
+  background-color: #e6e6e6;
+}
+.jumbotron .fade {
+  height: 7.4rem;
+  bottom: 0;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(148, 34, 34, 0.3),
+    #111
+  );
+}
+
+/* navigation_header  */
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  height: 30px;
+  z-index: 100;
+  transition: all 0.5s ease-in-out;
+}
+.nav .logo {
+  object-fit: contain;
+  width: 80px;
+}
+.nav.nav_scroll {
+  background-color: #111;
+}
+.m-t-30 {
+  margin-top: 30px;
+}
