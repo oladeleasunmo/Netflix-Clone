@@ -1,5 +1,7 @@
 /*CATEGORY */
-
+body {
+  background-color: #111;
+}
 .Row {
   margin-left: 20px;
   margin-top: 10px;
@@ -104,7 +106,7 @@
   object-fit: contain;
   width: 80px;
 }
-.nav.nav_scroll {
+.nav_scroll {
   background-color: #111;
 }
 .m-t-30 {

@@ -1,6 +1,6 @@
-import "./bootstrap.min.css";
+// import "./bootstrap.min.css";
 import "./App.css";
-// import "./style.css";
+import "./style.css";
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import LandingPage from "./Screens/Landingpage";
